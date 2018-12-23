@@ -129,8 +129,8 @@
   text-align: center;
 }
 
-#text-area4 .keyboard-open{
-  margin-bottom: 300px;
+#text-area4{
+  float: center;
 }
 
 .caption--small {
