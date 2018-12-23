@@ -129,6 +129,10 @@
   text-align: center;
 }
 
+#text-area4 .keyboard-open{
+  margin-bottom: 300px;
+}
+
 .caption--small {
   font-size: 1rem;
   text-align: center;
