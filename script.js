@@ -826,9 +826,10 @@ $('.toggle-sound').click(function() {
         santawalk.style.display ="inline";
         textarea4.style.display ="none";
         submitbtn.style.display="none";
+        textarea6.style.display="block";
         
         SleighRide.play();Jingle2.play();hohoho.play();	
-        SantaLaughing.play();
+        SantaLaughing.play(); MerryChristmas.play()
          name = textarea4.value;
          textarea6.innerText = name;
          cube.style.display = "none";
@@ -836,4 +837,16 @@ $('.toggle-sound').click(function() {
       2000);
    
   });
+
+  $(document).ready(function() {
+    document.ontouchmove = function(e){
+         e.preventDefault();
+         }
+});
+
+input.onfocus = function () {
+  window.scrollTo(0, 0);
+  document.body.scrollTop = 0;
+}
+
 
